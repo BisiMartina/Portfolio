@@ -89,6 +89,10 @@ ul {
 #Linkedin {
     color: var( --custom-text-light-color);
 }
+#Linkedin:hover {
+  color: var(--custom-text-dark-color);
+  text-decoration: none;
+}
 
 .btn {
     color: var( --custom-text-light-color);
@@ -109,7 +113,6 @@ a {
 a:hover {
     color: var(--custom-text-dark-color);
     text-decoration: none;
-    
 }
 
 .display-4 {
@@ -177,6 +180,7 @@ a:hover {
     left: 0;
     width: 100%;
   }
+
 
 /* Timeline */
 body{margin-top:20px;}
@@ -282,5 +286,3 @@ font-size: 14px;
  line-height: 1.3em; 
  padding: .75em;
 }
-
-
