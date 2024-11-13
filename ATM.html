@@ -9,9 +9,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!--font-->
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+       <!--font-->
+       <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+      </style>
+  
+      <style>
+         @import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Jomhuria&family=Special+Elite&display=swap');
       </style>
 
           <!--CSS Import-->
@@ -20,27 +24,36 @@
     <!--Adattabilità a schermo-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YLKVKFPXKX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-YLKVKFPXKX');
+</script>
     
     
   </head>
     <body>
 
-  <!-- NAVBAR -->
-  <div class="container">
-    <nav class="navbar navbar-expand-lg">
+ <!-- NAVBAR -->
+ <div class="container">
+    <nav class="navbar navbar-expand-md">
       <a class="navbar-brand" href="index.html">
-    <img src="img/logo.svg" width="50" height="50" alt="logo MB">
+        <img src="img/logo.svg" width="40" height="40" alt="logo MB">
       </a>
+
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"><img src="img/menu.svg" width="40px" height="40px"> </span>
+          <span class="navbar-toggler-icon"><img src="img/menu.svg" width="40px" height="40px"> </span>
      </button>
       <div class="collapse navbar-collapse justify-content-center mr-5" id="navbarNav">
       <div class="navbar-nav">
-        <a class="nav-item nav-link border  pl-4 pr-4" href="index.html">Home</a>
-         <a class="nav-item nav-link border pl-4 pr-4" href="about me.html">About me <span class="sr-only">(current)</span> </a>
-         <a class="nav-item nav-link border pl-4 pr-4" href="projects.html">Projects</a>
-         <a class="nav-item nav-link border pl-4 pr-4" href="contacts.html">Contacts</a>
+        <a class="nav-item nav-link " href="index.html">Home</a>
+         <a class="nav-item nav-link" href="about me.html">About me</a>
+         <a class="nav-item nav-link" href="projects.html">Projects</a>
+         <a class="nav-item nav-link" href="contacts.html">Contacts</a>
      </div>
      </div>
     </nav>
@@ -52,9 +65,9 @@
   <div class="cover mt-4" style="background-image: url('img/ATM/coverATM.png');"> </div>
 
    <!-- Intro -->
-  <div class="container mt-5 mb-5">
-    <div class="row mb-4">
-      <div class="col-md-12">  
+  <div class="container mt-5 mb-2">
+    <div class="row mb-2">
+      <div class="col-md-12 col-sm-12">  
         <h1 class="mb-4"> App ATM Milano </h1>
         <p> For this University project, we analyzed the functionalities of the ATM app, identified the problems with its use, and developed an interactive prototype, which was tested on real users.
         </p>
@@ -64,25 +77,26 @@
          <p> Within the project, we analyzed the functionalities of the app to identify problematic aspects of the user experience. We identified solutions and implemented them in an interactive prototype. Then, we tested the prototype by creating scenarios with user personas to simulate various use cases. Finally, we analyzed the collected data and improved the prototype. </p>
           </div>
     </div>
+</div>
 <!-- end intro -->
 
  <!-- Tools & Link -->
- <div class="container mt-5 mb-5"> 
- <div class="row">
-    <div class="col-md-5 mb-4">  
+ <div class="container mt-2 mb-5"> 
+ <div class="row mb-2">
+    <div class="col-md-6 col-sm-6">  
         <h2 class="mb-3"> Tools </h2>
         <img src="img/logo-figma.svg"> </img>
 
      
     </div>
 
-    <div class="col-md-6">  
-      <h2 class="mb-3"> Link </h2>
+    <div class="col-md-6 col-sm-6">  
+      <h2 class="mb-3 mt-2"> Link </h2>
       <a href="https://www.figma.com/design/MiLCXQVsmtdkdet6RUpgzV/ATM-APP-project?node-id=76-457&t=TL1Y1o5FGtDeV1eg-1">
-        <button class="btn btn-primary mr-2"> Figma file </button>
+        <button class="btn mr-2"> Figma file </button>
       </a>
 
-      <a href="https://www.figma.com/proto/MiLCXQVsmtdkdet6RUpgzV/ATM-APP-project?node-id=135-1555&t=vcLA8sFQDkwM7Lhv-1&scaling=scale-down&page-id=76%3A457&starting-point-node-id=135%3A1555"> <button class="btn btn-primary">Prototype</button></a>
+      <a href="https://www.figma.com/proto/MiLCXQVsmtdkdet6RUpgzV/ATM-APP-project?node-id=135-1555&t=vcLA8sFQDkwM7Lhv-1&scaling=scale-down&page-id=76%3A457&starting-point-node-id=135%3A1555"> <button class="btn">Prototype</button></a>
     </div>
   </div>
 </div>
@@ -92,7 +106,7 @@
 <!-- Concept -->
 <div class="container mt-5 mb-5"> 
 <div class="row mb-4 mt-4">
-    <div class="col-md-12"> 
+    <div class="col-md-12 col-sm-12"> 
   <h3> Concept</h3>    
   <p> ATM Milano is an application designed to simplify your travel within the city in an easy and effective manner, optimizing time through complete digitalization of the processes. The ATM app was created to streamline the user experience of the service, offering the ability to purchase tickets, renew subscriptions, calculate routes and schedules, and report any issues on the lines.</p>
     <p> This project is based on our personal experience with ATM services and its corresponding application. We frequently use the ATM app to navigate the city; however, its usage is not always as simple and intuitive as it could be.
@@ -104,9 +118,9 @@
 
 
   <!--  Road map -->  
-  <div class="container mt-5 mb-5">                      
+  <div class="container mt-5 mb-2">                      
     <div class="row">
-        <div class="col">
+        <div class="col-md-12 col-sm-12">
             <div class="timeline-steps aos-init aos-animate" data-aos="fade-up">
                 <div class="timeline-step">
                     <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2003">
@@ -154,13 +168,13 @@
 <p> We have analyzed the application in depth and identified some usability issues.</p>
         <div class="row mb-4">
             
-            <div class="col-md-4 mt-2"> 
+            <div class="col-md-4 col-sm-4 mt-2"> 
                 <p><span class="font-weight-bold">1.</span> High number of steps to find the schedule of a tram or bus line</p>
             </div> 
-            <div class="col-md-4 mt-2"> 
+            <div class="col-md-4 col-sm-4 mt-2"> 
                 <p><span class="font-weight-bold">2.</span> Too many steps and possible routes to find the metro schedules</p>
             </div> 
-            <div class="col-md-4 mt-2"> 
+            <div class="col-md-4 col-sm-4 mt-2"> 
                 <p><span class="font-weight-bold">3.</span> Inability to use a digital version of one's subscription</p>
             </div> 
         </div>
@@ -168,53 +182,53 @@
          <!--  2 --> 
 <h3> Proposed solutions & Prototype  </h3>
         <div class="row mt-4">
-          <div class="col-md-6"> 
+          <div class="col-md-6 col-sm-6"> 
             <h4>Line stop schedules </h4>
             <p> Retrieving the stop schedules requires several steps. Starting from the Home Page and using the Lines function, the <span class="font-weight-bold">number of steps is six</span>. Through the Around function, the number of steps is reduced to four, but if the Around function is used to search for stops far from the geolocated point, one would need to enter the name of the stop or address, increasing the number of steps to five. </p>
             <p>In our prototype, we decided to reduce the number of steps within the Lines function to <span class="font-weight-bold"> three steps</span> to view the schedule of the stop of interest, starting from the Home Page.</p>
         </div>
-            <div class="col-md-3 mb-2"> 
+            <div class="col-md-3 col-sm-3 mb-2"> 
                 <img src="img/ATM/Linee_Mockup.png" class="img-fluid">
             </div>
-            <div class="col-md-3 mb-2"> 
+            <div class="col-md-3 col-sm-3 mb-2"> 
                 <img src="img/ATM/Tram 7_Anassagora_Lun_Mockup.png" class="img-fluid">
             </div>
 
  </div>
 
 <div class="row mt-5">
-    <div class="col-md-6"> 
+    <div class="col-md-6 col-sm-6"> 
         <h4>Metro stop schedules </h4>
         <p> The retrieval of metro schedules can be done in the Lines section by clicking on the various metro lines, with the number of steps still being six. Additionally, this is often not the first place one thinks to look for schedules, given the prominence of the metro icons on the Home Page in a section called Metro Status, where one might expect to find information related to the different lines.
              </p>
         <p>We decided to use this section to include additional information related to metro services. Besides the existing feature of viewing metro regularity, we added the option to access the metro network map and schedules through two buttons within the section. </span> to view the schedule of the stop of interest, starting from the Home Page.</p>
     </div>
-    <div class="col-md-3 mb-2"> 
+    <div class="col-md-3 col-sm-3 mb-2"> 
         <img src="img/ATM/Homepage_Mockup.png" class="img-fluid">
     </div>
-    <div class="col-md-3 mb-2"> 
+    <div class="col-md-3 col-sm-3 mb-2"> 
         <img src="img/ATM/Orari_Metro5_MockUp.png" class="img-fluid">
     </div>
  </div>
 
  <div class="row mt-5">
-    <div class="col-md-6"> 
+    <div class="col-md-6 col-sm-6"> 
         <h4>Digital Subscription </h4>
         <p> The application includes a section dedicated to your subscription and ATM services, accessible upon logging into your ATM profile directly from the Home Page. The app allows users to top up their subscription directly within the app and view their cards.
              </p>
         <p>We decided to add the possibility to use one's subscription directly through the app, thereby digitizing it, reducing the number of printed cards by ATM, and lowering the risk of loss.</p>
     </div>
-    <div class="col-md-3 mb-2"> 
+    <div class="col-md-3 col-sm-3  mb-2"> 
         <img src="img/ATM/Tessera_Mockup.png" class="img-fluid">
     </div>
-    <div class="col-md-3 mb-2"> 
+    <div class="col-md-3 col-sm-3 mb-2"> 
         <img src="img/ATM/Scansione_Mockup.png" class="img-fluid">
     </div>
  </div>
  
 
  <div class="row mt-5 mb-5">
-    <div class="col-md-6"> 
+    <div class="col-md-6 col-sm-6"> 
         <h4>Additional Changes</h4>
         <p> We also considered other possible modifications to make the app more intuitive and usable:</p>
         <ul>
@@ -224,10 +238,10 @@
             <li>Adding the possibility to change lines at stations that intersect two metro lines in the schedules section</li>
         </ul>
     </div>
-    <div class="col-md-3 mb-2"> 
+    <div class="col-md-3 col-sm-3 mb-2"> 
         <img src="img/ATM/Orari_ZaraM5_Lun_MockUp.png" class="img-fluid">
     </div>
-    <div class="col-md-3 mb-2"> 
+    <div class="col-md-3 col-sm-3 mb-2"> 
         <img src="img/ATM/Homepage_Menù_Mockup(1).png" class="img-fluid">
     </div>
  </div>
@@ -236,7 +250,7 @@
  <!--  3 -->  
 <h3> User personas & scenario  </h3>
 <div class="row mt-4">
-    <div class="col-md-4 text-center"> 
+    <div class="col-md-4 col-sm-4 text-center"> 
     <img src="img/ATM/Sara.png"> 
     <h5 class="mt-3">Sara Bianchi</h5>
     <p> Age: 19 <br>
@@ -244,7 +258,7 @@
         Occupation: student </p>
         <p> Sara will attend the Sociology course at University of Milan-Bicocca and, in search of accommodation, looked in the areas surrounding the university. She managed to rent a house near the terminus of tram 7, at the Anassagora stop, which will take her to the university buildings. Sara regularly uses the ATM app to check the departure times of tram 7 to reach the university in time for classes.</p>
     </div> 
-    <div class="col-md-4 text-center"> 
+    <div class="col-md-4 col-sm-4 text-center"> 
         <img src="img/ATM/Claudio.png"> 
         <h5 class="mt-3">Claudio Bordi</h5>
         <p> Age: 25
@@ -253,7 +267,7 @@
             Occupation: student </p>
             <p>Claudio is at a university event near the university of Milano-Bicocca. He will need to return home with the last ride of the Lilac metro line (M5), checking the schedule of the last metro departing from the Bicocca stop.</p>
         </div> 
-        <div class="col-md-4 text-center"> 
+        <div class="col-md-4 col-sm-4 text-center"> 
             <img src="img/ATM/Angela.png"> 
             <h5 class="mt-3">Angela Mastro</h5>
             <p> Age: 58
@@ -265,7 +279,7 @@
   </div>
 
   <div class="row mt-4 mb-5">
-    <div class="col-md-4 text-center"> 
+    <div class="col-md-4 col-sm-4 text-center"> 
     <img src="img/ATM/Matteo.png"> 
     <h5 class="mt-3">Matteo Ferro</h5>
     <p> Age: 26 <br>
@@ -273,7 +287,7 @@
         Occupation: IT sector employee </p>
         <p> Matteo takes a day off to accompany his grandmother to the Niguarda Hospital in the early afternoon and needs to check the connections of various means of transportation.</p>
     </div> 
-    <div class="col-md-4 text-center"> 
+    <div class="col-md-4 col-sm-4 text-center"> 
         <img src="img/ATM/Paolo.png"> 
         <h5 class="mt-3">Paolo Rovi</h5>
         <p> Age: 54
@@ -282,12 +296,12 @@
             Occupation: worker </p>
             <p>It's Sunday and Paolo has organized with friends to watch a match of his favorite team. He will have to take tram 7 and the metro to go to the stadium and will use his digital subscription.</p>
         </div> 
-        <div class="col-md-4 text-center"> 
+        <div class="col-md-4 col-sm-4 text-center"> 
             <img src="img/ATM/Angela.png"> 
             <h5 class="mt-3">Maura Emo</h5>
             <p> Age: 68
                 <br>
-                Origin: MMilan <br>
+                Origin: Milan <br>
                 Occupation: retired </p>
                 <p> Maura needs to reach Niguarda Hospital using the metro and tram to visit a neighbor who has been hospitalized. </p>
             </div> 
@@ -298,25 +312,25 @@
  <!--  4 -->  
 <h3> User tests </h3>
         <div class="row">
-          <div class="col-md-12"> 
+          <div class="col-md-12 col-sm-12"> 
             <p>To test the users, we used the Task Analysis technique, as the concept of task is central to evaluating systems. For the testing phase, we created user personas inserted into scenarios with objectives. We identified the actions they would need to perform to achieve their goal, thus obtaining tasks to be carried out. <br> 
                 The tasks are designed based on usage scenarios, and being an application dedicated to transportation, it was necessary to identify routes that users could follow to find the schedules as required. </p>
 </div> </div>
 <h4> Tasks </h4>
 <div class="row mt-4 mb-3">
-    <div class="col-md-4"> 
+    <div class="col-md-4 col-sm-4"> 
         <p><span class="font-weight-bold"> 1.</span> Searching for tram line schedules.</p>
     </div>
-    <div class="col-md-4"> 
+    <div class="col-md-4 col-sm-4"> 
         <p><span class="font-weight-bold">2.</span> Searching for metro line schedules.</p>
     </div>
-  <div class="col-md-4"> 
+  <div class="col-md-4 col-sm-4"> 
     <p><span class="font-weight-bold">3.</span> Using the digital subscription.</p>
 </div> </div>
 
 <h4 class="mb-3"> Results </h4>
-<div class="row">
-    <div class="col-md-12"> 
+<div class="row ">
+    <div class="col-md-10 col-sm-8"> 
         <table class="table table-bordered">
             <thead>
                 <tr>
@@ -344,7 +358,7 @@
     </div>   </div> 
     
     <div class="row mb-5">
-    <div class="col-md-12"> 
+    <div class="col-md-12 col-sm-12"> 
         <h5> Persona 2 </h5>
         <p>Error in displaying the task to be performed: the user thought they could view the schedules by clicking on a non-clickable point of the prototype.</p>
         <h5> Persona 3 </h5>
@@ -361,7 +375,7 @@
  <!--  5 -->  
 <h3> Redesign  </h3>
         <div class="row">
-          <div class="col-md-12"> 
+          <div class="col-md-12 col-sm-12"> 
             <p>Following the user tests, we were able to observe the behavior with the new version of the app and the difficulties they encountered.</p>
             <div class="embed-responsive embed-responsive-16by9">
                  <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FMiLCXQVsmtdkdet6RUpgzV%2FATM-APP-project%3Fnode-id%3D1023-11175%26t%3D6kveGYpMAJbQdoYu-1" allowfullscreen></iframe>

@@ -12,7 +12,11 @@
     <!--font-->
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
-      </style>
+    </style>
+
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Jomhuria&family=Special+Elite&display=swap');
+    </style>
 
           <!--CSS Import-->
     <link rel="stylesheet" href="css/style.css">
@@ -20,66 +24,71 @@
     <!--Adattabilità a schermo-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YLKVKFPXKX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-YLKVKFPXKX');
+</script>
     
     
   </head>
     <body>
 
+ <!-- NAVBAR -->
+ <div class="container">
+  <nav class="navbar navbar-expand-md">
+    <a class="navbar-brand" href="index.html">
+      <img src="img/logo.svg" width="40" height="40" alt="logo MB">
+    </a>
 
-      <!-- NAVBAR -->
-      <div class="container">
-        <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand" href="index.html">
-        <img src="img/logo.svg" width="50" height="50" alt="logo MB">
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"><img src="img/menu.svg" width="40px" height="40px"> </span>
-         </button>
-          <div class="collapse navbar-collapse justify-content-center mr-5" id="navbarNav">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link border  pl-4 pr-4" href="index.html">Home</a>
-             <a class="nav-item nav-link border pl-4 pr-4" href="about me.html">About me <span class="sr-only">(current)</span> </a>
-             <a class="nav-item nav-link border pl-4 pr-4" href="projects.html">Projects</a>
-             <a class="nav-item nav-link border pl-4 pr-4" href="contacts.html">Contacts</a>
-         </div>
-         </div>
-        </nav>
-  
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><img src="img/menu.svg" width="40px" height="40px"> </span>
+   </button>
+    <div class="collapse navbar-collapse justify-content-center mr-5" id="navbarNav">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link " href="index.html">Home</a>
+       <a class="nav-item nav-link" href="about me.html">About me</a>
+       <a class="nav-item nav-link" href="projects.html">Projects</a>
+       <a class="nav-item nav-link" href="contacts.html">Contacts</a>
+   </div>
+   </div>
+  </nav>
+
+</div>
+<!-- end NAVBAR -->
+
+  <!-- Intestazione -->
+  <div class="container mt-4">
+    <div class="row">
+     <div class="col-md-5 col-sm-5 intestazione"> 
+        <div class="mt-5">
+          <h1 class="about"> About me </h1>
+          <h2 class="mt-4" class="aboutName">  Martina Bisi </h2>
+          <p id="subtitle">Aspirant UX/UI designer</p>
+        </div>
       </div>
-      <!-- end NAVBAR -->
 
-      <!-- Intestazione -->
-    <div class="container mt-3">
-  <div class="row">
-    <div class="col-md-6 d-flex justify-content-center"> 
-      <div class="mt-5">
-        <blockquote class="blockquote mt-5">
-        <h1 class="display-4 font-weight-bold"> About me. </h1>
-        <h2 class="mt-4">  Martina Bisi </h2>
-        <footer class="blockquote-footer">Aspirant UX/UI designer</footer>
-      </blockquote>
-    </div>
-    </div>
-
-    <div class="col-md-5 d-flex justify-content-center">
-      <img src="img/foto2.png" class="img-fluid img2">
-    </div>
-
-
-
+      <div class="col-md-1 col-sm-1"> </div>
+      
+  <div class="col-md-6 col-sm-6 d-flex justify-content-around">
+    <img src="img/foto.png" class="picture1 mt-2 img-fluid">
   </div>
       </div>
-      <!-- end Intestazione -->
+        </div>
+  <!-- end Intestazione -->
+
 
 <!-- Meet me -->
 <div class="container">
 
   <!-- Header -->
-  <div class="row">
-    
-    <div class="col-md-4 mt-5"> 
-      <h2> Meet me. </h2>
+  <div class="row"> 
+    <div class="col-md-12 mt-4"> 
+      <h2> Meet me </h2>
     </div>
   </div>
 
@@ -97,37 +106,37 @@
     <!-- Header2 -->
     <div class="row">
       <div class="col-md-4 mt-4"> 
-        <h3> Education. </h3>
+        <h3> Education </h3>
       </div>
     </div>
 
-    <!-- Education experiences -->
+ <!-- Education experiences -->
     <div class="row">
       <div class="col-md-12 mr-4"> 
         <ul> 
-            <li class="mb-4"> <p> <span class="font-weight-bold">Master's degree</span>: Teoria e tecnologia della comunicazione. <br>
-              Università degli Studi di Milano-Bicocca | 2021/2022 - 2023/2024 </p>
+            <li class="mb-4"> <p> <span class="font-weight-bold">Master's degree</span>: Theory and Technology of Communication. <br>
+                <span class="font-italic"> University of Milan-Bicocca | 2021/2022 - 2023/2024 </span></p>
               <p class="ml-2"> <span class="font-weight-bold">Key modules</span>: experience design, prototyping, cognitive ergonomics, web technologies. <br>
               <span class="font-weight-bold">Thesis</span>: Gender representation in the design of conversational agents. <br>
               <span class="font-weight-bold"> Degree grade:</span>: 110/110 cum laude. </p>
               <div class="d-flex ">
-                <div class="d-flex align-items-center imgcertification2"> <img src="img/Certification/master.png" class="img-fluid">
+                <div class="d-flex align-items-center imgcertification"> <img src="img/Certification/master.png" class="img-fluid">
                 </div>
                  <div class="ml-3 d-flex flex-column align-items-center"> 
                   <h6 class="mt-2"> OpenBadge Master's Degree in Communication Theory and Technology </h6>
-                  <button class="btn btn-primary"> <a href="https://openbadges.bestr.it/public/assertions/3ehqXvILT2i1fKW__hPFLQ"> Bestr.it </a></button>
+                  <a href="https://openbadges.bestr.it/public/assertions/3ehqXvILT2i1fKW__hPFLQ"> </a><button class="btn"> Bestr.it </button> </a>
                 </div>
               </div>
             </li>
 
-            <li class="mb-4"> <p> <span class="font-weight-bold">Palestre Digitali</span>: Training course in Digital marketing. <br>
-              Accenture Italia | June 2021</p> 
+            <li class="mb-4"> <p> <span class="font-weight-bold">Palestre Digitali</span>: Training course in Digital marketing. <br> <span class="font-italic">
+              Accenture Italia | June 2021</span></p> 
               <p class="ml-2"> <span class="font-weight-bold">Key modules</span>: UX and UI Design, SEO and SEA, Digital advertising, Social Media Management, Service Design, Copywriting. <br> 
                <span class="font-weight-bold">Project Work</span>: Fashion industry after COVID-19. </p>
             </li>
 
-            <li class="mb-4"> <p> <span class="font-weight-bold">Bachelor's degree</span>: Scienze umanistiche per la comunicazione. <br>
-              Università degli Studi di Milano | 2017/2018 - 2020/2021 </p> 
+            <li class="mb-4"> <p> <span class="font-weight-bold">Bachelor's degree</span>: Liberal Studies in Comunication <br>
+                University of Milan | 2017/2018 - 2020/2021 </p> 
               <p class="ml-2"> <span class="font-weight-bold">Key modules</span>: information theory, advertising communication, linguistics, information law, mass media, anthropology, contemporary history. <br> 
              <span class="font-weight-bold">Thesis</span>: User Experience in the design of chatbots. <br>
                <span class="font-weight-bold"> Degree grade:</span>: 107/110. </p>
@@ -139,74 +148,74 @@
      <!-- Header3 -->
     <div class="row">
       <div class="col-md-10 mt-4"> 
-        <h3> Work Experience. </h3>
+        <h3> Work Experience </h3>
       </div>
     </div>
 
-     <!-- Work experiences -->
-    <div class="row">
-      <div class="col-md-12 mr-4"> 
-        <ul> 
-          <li class="mb-4"> <p> <span class="font-weight-bold">Student collaboration</span>: as a Bicocca University Angels. <br> Università degli Studi di Milano - Bicocca
-            | Sept. 2023 - March 2024</p> 
-            <ul>
-             <li>
-               Support to the Erasmus Office at the University, assisting students from the Science Department;
-             </li>
-             <li>
-               Support to the Social Team of Bicocca International on Instagram and TikTok;
-             </li>
-             <li>
-               Contents creation for Social pages and events;
-             </li>
-             <li>
-               Pubblic speaking, support and organization during events;
-             </li>
-           </ul>  
-       </li>
-
-          <li class="mb-4 mt-4"> <p> <span class="font-weight-bold"> Internship UX/UI Designer</span>: at UNBLND - Ubigreat with Erasmus+ Traineeship program. <br> Belgium | March - June 2023 </p> 
-          <p> </p>
-              <ul>
-                <li>
-                  user research to improve the user experience with the UNBLND app;
-                </li>
-                <li>
-                  creation of mockups and prototypes;
-                </li>
-                <li>
-                  user tests and interviews to evaluate the quality of the solutions adopted;
-                </li>
-                <li>
-                  creation of vector illustrations and avatars.
-                </li>
-              </ul>
-            </li>
-
-            <li class="mb-4 mt-4"> <p>  <span class="font-weight-bold">Student collaboration</span>: in the University Library. <br> Università degli Studi di Milano - Bicocca
-              | Sept. - Dec. 2022 </p> 
-              <ul>
-               <li>
-                Support for the lending office of the Science Library of the University;
-               </li>
-               <li>
-                Contribution to maintaining the organization of the university library;
-               </li>
-               <li>
-                Management of the lending and return of books;
-               </li>
-             </ul>  
+ <!-- Work experiences -->
+ <div class="row">
+  <div class="col-md-12 mr-4"> 
+    <ul> 
+      <li class="mb-4"> <p> <span class="font-weight-bold">Student collaboration</span>: as a Bicocca University Angels. <br> <span class="font-italic">University of Milan - Bicocca
+        | Sept. 2023 - March 2024</span></p> 
+        <ul>
+         <li>
+           Support to the Erasmus Office at the University, assisting students from the Science Department;
          </li>
+         <li>
+           Support to the Social Team of Bicocca International on Instagram and TikTok;
+         </li>
+         <li>
+           Contents creation for Social pages and events;
+         </li>
+         <li>
+           Pubblic speaking, support and organization during events;
+         </li>
+       </ul>  
+   </li>
 
-        </ul>
-      </div>
-      
-    </div>
+      <li class="mb-4 mt-4"> <p> <span class="font-weight-bold"> Internship UX/UI Designer</span>: at UNBLND - Ubigreat with Erasmus+ Traineeship program. <br>  <span class="font-italic"> Belgium | March - June 2023 </span></p> 
+      <p> </p>
+          <ul>
+            <li>
+              user research to improve the user experience with the UNBLND app;
+            </li>
+            <li>
+              creation of mockups and prototypes;
+            </li>
+            <li>
+              user tests and interviews to evaluate the quality of the solutions adopted;
+            </li>
+            <li>
+              creation of vector illustrations and avatars.
+            </li>
+          </ul>
+        </li>
+
+        <li class="mb-4 mt-4"> <p>  <span class="font-weight-bold">Student collaboration</span>: in the University Library. <br> <span class="font-italic"> University of Milan - Bicocca
+          | Sept. - Dec. 2022 </span></p> 
+          <ul>
+           <li>
+            Support for the lending office of the Science Library of the University;
+           </li>
+           <li>
+            Contribution to maintaining the organization of the university library;
+           </li>
+           <li>
+            Management of the lending and return of books;
+           </li>
+         </ul>  
+     </li>
+
+    </ul>
+  </div>
+  
+</div>
 
  <!-- Header4 -->
     <div class="row">
-      <div class="col-md-10 mt-4 mb-4"> 
-        <h2> About my competences. </h2>
+      <div class="col-md-10 mt-4 mb-2"> 
+        <h2> About my competences </h2>
       </div>
       </div>
 
@@ -367,7 +376,7 @@
   <div class="row mt-4">
     <div class="col-md-10"> 
       <h3 class="mb-4">Skills Set</h3> 
-      <p>
+      <p class="skillset">
         <span class="border rounded-pill  p-2 mr-2 mb-2 d-inline-block text-center"> UX/UI Design </span> <span class="border rounded-pill p-2 mr-2 d-inline-block text-center"> Design System </span> <span class="border rounded-pill p-2 mr-2 d-inline-block text-center mb-2"> Prototyping </span>
         <span class="border rounded-pill p-2 mr-2 d-inline-block text-center"> Wireframing </span> <span class="border rounded-pill p-2 mr-2 d-inline-block text-center"> Social media post design </span> <span class="border rounded-pill p-2 mr-2 d-inline-block text-center"> UX Research </span>  
       </p>
@@ -376,99 +385,99 @@
   </div>
 
    <!-- Languages -->
-  <div class="row mt-4">
+   <div class="row mt-4">
     <div class="col-md-6"> 
       <h3 class="mb-4"> Languages</h3>
     </div>
   </div>
 
   <div class="row mb-5">
-    <div class="col-md-4 col-sm-5">
-      <p><span class="font-weight-bold"> Italian</span>: native</p>
+    <div class="col-md-4 col-sm-5 d-flex justify-content-around mb-2">
+      <p><span class="font-weight-bold"> Italian</span>: <img src="img/language_it.svg"> </p>
     </div>
-    <div class="col-md-4 col-sm-5">
-      <p><span class="font-weight-bold"> English</span>: C1 </p>
+
+    <div class="col-md-4 col-sm-5 d-flex justify-content-around mb-2">
+      <p><span class="font-weight-bold"> English</span>: <img src="img/language_eng.svg"> </p>
     </div>
-    <div class="col-md-4 col-sm-5">
+
+    <div class="col-md-4 col-sm-5 d-flex justify-content-around">
       <p> <span class="font-weight-bold">French</span>: A2 - in progress </p>
     </div>
     
   </div>
 
   <!-- Certifications -->
-  <h2> Courses and Certification </h2>
+  <h2> Certification </h2>
+   
 
-   <!-- Row Bestr.it Bicocca -->
-    <div class="row mt-3 d-flex justify-content-around">
-    <div class="col-md-4 mb-2"> 
-      <div class="d-flex certification">
-        <div class="d-flex align-items-center imgcertification"> <img src="img/Certification/Internationalstudent.png" class="img-fluid">
-        </div>
-         <div class="ml-3 d-flex flex-column align-items-center justify-content-center"> 
-          <h6> International student </h6>
-        <button class="btn btn-primary"> <a href="https://openbadges.bestr.it/public/assertions/mbBy4jcuQk-dwevjftICeg"> Bestr.it </a></button>
-        </div>
-      </div>
-   </div>
-
-   <div class="col-md-4 mb-2"> 
-    <div class="d-flex certification2">
-      <div class="d-flex align-items-center imgcertification2"> <img src="img/Certification/Biccoccangels.png" class="img-fluid">
-      </div>
-       <div class="ml-3 d-flex flex-column align-items-center justify-content-center"> 
-        <h6 class="mt-2"> Bicocca University Angels (BUA) </h6>
-      <button class="btn btn-primary"> <a href="https://openbadges.bestr.it/public/assertions/fEiptZrCTByu5UHSwF4JAg"> Bestr.it </a></button>
-      </div>
-    </div>
-  </div>
-  
-  <div class="col-md-4 mb-2"> 
-    <div class="d-flex certification2">
-      <div class="d-flex align-items-center imgcertification2"> <img src="img/Certification/BUA Social.png" class="img-fluid">
-      </div>
-       <div class="ml-3 d-flex flex-column align-items-center justify-content-center"> 
-        <h6 class="mt-2"> BUA Team Social </h6>
-      <button class="btn btn-primary"> <a href="https://openbadges.bestr.it/public/assertions/8rLHbMxvSwmQc6O-LZZdpg"> Bestr.it </a></button>
-
+      <!-- Row Bestr.it  -->
+      <div class="row mt-3 mb-2 d-flex justify-content-around">
+        <div class="col-md-4"> 
+          <div class="d-flex certification">
+            <div class="d-flex align-items-center imgcertification"> <img src="img/Certification/Internationalstudent.png" class="img-fluid">
+            </div>
+             <div class="ml-2 d-flex flex-column align-items-center justify-content-center"> 
+              <p class="font-weight-bold"> International student </p>
+              <a href="https://openbadges.bestr.it/public/assertions/mbBy4jcuQk-dwevjftICeg"> <button class="btn ">  Bestr.it </button></a>
+            </div>
+          </div>
+       </div>
       
+       <div class="col-md-4"> 
+        <div class="d-flex certification">
+          <div class="d-flex align-items-center imgcertification"> <img src="img/Certification/Biccoccangels.png" class="img-fluid">
+          </div>
+           <div class="ml-2 d-flex flex-column align-items-center justify-content-center"> 
+            <p class="font-weight-bold"> Bicocca University Angels (BUA)  </p>
+            <a href="https://openbadges.bestr.it/public/assertions/fEiptZrCTByu5UHSwF4JAg"> <button class="btn"> Bestr.it</button></a>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-
-
-    </div>
+      
+      <div class="col-md-4"> 
+        <div class="d-flex certification">
+          <div class="d-flex align-items-center imgcertification"> <img src="img/Certification/BUA Social.png" class="img-fluid">
+          </div>
+           <div class="ml-2 d-flex flex-column align-items-center justify-content-center"> 
+            <p class="font-weight-bold"> BUA Team Social </p>
+            <a href="https://openbadges.bestr.it/public/assertions/8rLHbMxvSwmQc6O-LZZdpg"> <button class="btn">  Bestr.it </button></a>
+          </div>
+        </div>
+      </div>
+      
+          </div>
 
     <!-- Row Learnn Design -->
-    <div class="row mt-3 d-flex justify-content-around">
-  <div class="col-md-4 mb-2"> 
+    <div class="row mt-3 mb-2 d-flex justify-content-around">
+  <div class="col-md-4 "> 
     <div class="d-flex certification">
       <div class="d-flex align-items-center imgcertification"> <img src="img/Certification/learnn.png" class="img-fluid">
       </div>
-       <div class="ml-3 d-flex flex-column align-items-center justify-content-center"> 
-        <h6> UX Design </h6>
-      <button class="btn btn-primary"> <a href="https://learnn.com/v/0d6a3bbb-686f-422c-be3d-0b6672cc633f/#"> Learnn</a></button>
+       <div class="ml-2 d-flex flex-column align-items-center justify-content-center"> 
+        <p class="font-weight-bold"> UX Design </p>
+        <a href="https://learnn.com/v/0d6a3bbb-686f-422c-be3d-0b6672cc633f/#"> <button class="btn ">  Learnn </button></a>
       </div>
     </div>
  </div>
 
- <div class="col-md-4 mb-2"> 
+ <div class="col-md-4"> 
   <div class="d-flex certification">
     <div class="d-flex align-items-center imgcertification"> <img src="img/Certification/UI Design.png" class="img-fluid">
     </div>
-     <div class="ml-3 d-flex flex-column align-items-center justify-content-center"> 
-      <h6> UI Design </h6>
-    <button class="btn btn-primary"> <a href="https://learnn.com/v/024f06c4-efeb-4831-b299-e36ab252d1dc/"> Learnn </a></button>
+     <div class="ml-2 d-flex flex-column align-items-center justify-content-center"> 
+      <p class="font-weight-bold"> UI Design </p>
+      <a href="https://learnn.com/v/024f06c4-efeb-4831-b299-e36ab252d1dc/"> <button class="btn"> Learnn</button></a>
     </div>
   </div>
 </div>
 
-<div class="col-md-4 mb-2"> 
+<div class="col-md-4"> 
   <div class="d-flex certification">
     <div class="d-flex align-items-center imgcertification"> <img src="img/Certification/Product Design.png" class="img-fluid">
     </div>
-     <div class="ml-3 d-flex flex-column align-items-center justify-content-center"> 
-      <h6> Product Design Basics </h6>
-    <button class="btn btn-primary"> <a href="https://learnn.com/v/46ab1be4-7561-47da-8174-6a7483377c8c/"> Learnn </a></button>
+     <div class="ml-2 d-flex flex-column align-items-center justify-content-center"> 
+      <p class="font-weight-bold"> Product Design Basics </p>
+      <a href="https://learnn.com/v/46ab1be4-7561-47da-8174-6a7483377c8c/"> <button class="btn">  Learnn </button></a>
     </div>
   </div>
 </div>
@@ -476,55 +485,38 @@
     </div>
   
     <!-- Row Learnn Web Dev -->
-      <div class="row mt-3 d-flex justify-content-around">
-      <div class="col-md-4 mb-2"> 
+      <div class="row mt-3 mb-2 d-flex justify-content-around">
+      <div class="col-md-4"> 
         <div class="d-flex certification">
           <div class="d-flex align-items-center imgcertification"> <img src="img/Certification/Web Development.png" class="img-fluid">
           </div>
-           <div class="ml-3 d-flex flex-column align-items-center justify-content-center"> 
-            <h6> Web Development </h6>
-          <button class="btn btn-primary"> <a href="https://learnn.com/v/16d98ebc-cfa7-425b-9d50-921273db0337/"> Learnn </a></button>
+           <div class="ml-2 d-flex flex-column align-items-center justify-content-center"> 
+            <p class="font-weight-bold">  Web Development </p>
+            <a href="https://learnn.com/v/16d98ebc-cfa7-425b-9d50-921273db0337/"> <button class="btn"> Learnn </button></a>
           </div>
         </div>
      </div>
     
-     <div class="col-md-4 mb-2"> 
+     <div class="col-md-4"> 
       <div class="d-flex certification">
         <div class="d-flex align-items-center imgcertification"> <img src="img/Certification/Sito Wordpress.png" class="img-fluid">
         </div>
-         <div class="ml-3 d-flex flex-column align-items-center justify-content-center"> 
-          <h6> Websites with Wordpress </h6>
-        <button class="btn btn-primary"> <a href="https://learnn.com/v/1585530e-4fe0-40f6-b285-93e4080a74fc/"> Learnn </a></button>
+         <div class="ml-2 d-flex flex-column align-items-center justify-content-center"> 
+          <p class="font-weight-bold"> Websites with Wordpress </p>
+          <a href="https://learnn.com/v/1585530e-4fe0-40f6-b285-93e4080a74fc/"> <button class="btn"> Learnn </button></a>
         </div>
       </div>
     </div>
   
-    <div class="col-md-4 mb-2"> </div>
+    <div class="col-md-4"> </div>
     
       </div>
 
-
 <!--  end Certifications -->
-
-
-
-
-
-
-
-    <!-- Pubblication -->
-    <div class="row mt-5">
-      <div class="col-md-12"> 
-        <h2 class="mb-4"> Accademical Pubblication </h2>
-        <p> In progress. </p>
-      </div>
-    </div>
-
-
-
 
 </div>
 <!-- end Meet me -->
+
 
 <!-- CV Section -->
 <div class="container mt-5 mb-5"> 
@@ -535,22 +527,25 @@
     </div>
     <div class="row d-flex justify-content-center">
       <div class="col-md-12 text-center"> 
-        <button class="btn btn-outline-primary"> <a href="PDF/CV_MartinaBisi.pdf" download> Download CV PDF  </a> </button>
+        <a href="PDF/CV_MartinaBisi.pdf" download>  <button class="btn"> Download CV PDF   </button></a>
       </div>
     </div>
 </div>
 
-  <!-- Footer -->
-  <div class="container">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-      <div class="col-md-4 d-flex align-items-center">
-    
-        <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Martina Bisi </span>
-      </div>
-    
-    </footer>
-      </div>
+
+
+
       <!-- Footer -->
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+          <div class="col-md-4 d-flex align-items-center">
+        
+            <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Martina Bisi </span>
+          </div>
+        
+        </footer>
+          </div>
+          <!-- Footer -->
 
 
 <!-- Optional JavaScript -->

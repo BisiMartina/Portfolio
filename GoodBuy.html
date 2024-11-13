@@ -11,7 +11,11 @@
     <!--font-->
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
-      </style>
+    </style>
+
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Jomhuria&family=Special+Elite&display=swap');
+    </style>
 
           <!--CSS Import-->
     <link rel="stylesheet" href="css/style.css">
@@ -19,38 +23,47 @@
     <!--Adattabilità a schermo-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YLKVKFPXKX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-YLKVKFPXKX');
+</script>
     
     
   </head>
     <body>
 
-  <!-- NAVBAR -->
-  <div class="container">
-    <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="index.html">
-    <img src="img/logo.svg" width="50" height="50" alt="logo MB">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"><img src="img/menu.svg" width="40px" height="40px" > </span>
-     </button>
-      <div class="collapse navbar-collapse justify-content-center mr-5" id="navbarNav">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link border  pl-4 pr-4" href="index.html">Home</a>
-         <a class="nav-item nav-link border pl-4 pr-4" href="about me.html">About me <span class="sr-only">(current)</span> </a>
-         <a class="nav-item nav-link border pl-4 pr-4" href="projects.html">Projects</a>
-         <a class="nav-item nav-link border pl-4 pr-4" href="contacts.html">Contacts</a>
-     </div>
-     </div>
-    </nav>
+ <!-- NAVBAR -->
+ <div class="container">
+  <nav class="navbar navbar-expand-md">
+    <a class="navbar-brand" href="index.html">
+      <img src="img/logo.svg" width="40" height="40" alt="logo MB">
+    </a>
 
-  </div>
-  <!-- end NAVBAR -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><img src="img/menu.svg" width="40px" height="40px"> </span>
+   </button>
+    <div class="collapse navbar-collapse justify-content-center mr-5" id="navbarNav">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link " href="index.html">Home</a>
+       <a class="nav-item nav-link" href="about me.html">About me</a>
+       <a class="nav-item nav-link" href="projects.html">Projects</a>
+       <a class="nav-item nav-link" href="contacts.html">Contacts</a>
+   </div>
+   </div>
+  </nav>
+
+</div>
+<!-- end NAVBAR -->
 
   <div class="cover mt-4" style="background-image: url('img/Goodbuy/coverGB.png');"> </div>
 
    <!-- Intro -->
-  <div class="container mt-5 mb-5">
+  <div class="container mt-4 mb-5">
     <div class="row mb-4">
       <div class="col-md-12">  
         <h1 class="mb-4"> GoodBuy </h1>
@@ -80,10 +93,10 @@
       <div class="col-md-6">  
         <h2 class="mb-3"> Link </h2>
         <a href="https://www.figma.com/design/Kn5F7HlzKEOrCxws4OD7Ir/Progetto-GoodBuy?node-id=8-8172&t=unKquTLZUqxrjWdr-1">
-          <button class="btn btn-primary mr-2"> Figma file </button>
+          <button class="btn mr-2"> Figma file </button>
         </a>
 
-        <a href="https://www.behance.net/gallery/176303813/GoodBuy"> <button class="btn btn-primary">Behance</button></a>
+        <a href="https://www.behance.net/gallery/176303813/GoodBuy"> <button class="btn">Behance</button></a>
       </div>
     </div>
 <!-- end Tools & Link -->
@@ -176,7 +189,7 @@
     </p>
 
     <p class="mb-5"> The results are available in this presentation:     
-      <a href="https://www.behance.net/gallery/176303813/GoodBuy"> <button class="btn btn-primary">  Results
+      <a href="https://www.behance.net/gallery/176303813/GoodBuy"> <button class="btn">  Results
     </button> </a> </p>
 
 
@@ -196,10 +209,10 @@
             </div> </div>
 
             <h4> SWOT Analysis </h4>
-            <h5> Vinted </h5>
+            <p  class="font-weight-bold"> Vinted </p>
             <div class="row">
               <div class="col-md-6"> 
-                <h6> Strengths </h6>
+                <p class="font-weight-bold"> Strengths </p>
                 <ul> 
                   <li>User-friendly: Vinted's app and website are easy to use and provide a simple and intuitive user experience, promoting customer loyalty.</li>
                   <li>High convenience: It offers users an economical and convenient solution for buying and selling used clothes, thanks to low fees and the ability to negotiate directly with sellers.</li>
@@ -207,7 +220,7 @@
                 </ul>
                  </div> 
                  <div class="col-md-6"> 
-                  <h6> Weaknesses </h6>
+                  <p  class="font-weight-bold">  Weaknesses </p>
                   <ul> 
                     <li>Product quality: Since Vinted is a platform for selling used products, the quality of the items offered can vary significantly and may be a concern for some buyers.</li>
                     <li>Slow assistance: The process of resolving issues between sellers and buyers can be lengthy and frustrating. </li>
@@ -218,7 +231,7 @@
 
                    <div class="row mb-4">
                    <div class="col-md-6"> 
-                    <h6> Opportunities </h6>
+                    <p  class="font-weight-bold">  Opportunities </p>
                     <ul> 
                       <li>Verify product quality: With Vinted, it is possible to check the quality of products only after receiving them, whereas with GoodBuy, this can be done before the purchase.</li>
                       <li>Selling large items: Vinted does not offer the ability to sell large items (e.g., a chair).</li>
@@ -227,7 +240,7 @@
 
                      </div> 
                      <div class="col-md-6"> 
-                      <h6> Threats </h6>
+                      <p  class="font-weight-bold">  Threats </p>
                       <ul> 
                         <li>Expansion: Vinted could decide to expand its offerings to include more household items, establishing itself not only for clothing but also for furniture, appliances, and more.</li>
                         <li>Loyalty: Vinted's community is already very developed, making it difficult to convince users to switch platforms, as they are accustomed to certain features and a specific interface.</li>
@@ -237,10 +250,10 @@
 
                 </div>
 
-                <h5> eBay Kleinanzeigen </h5>
+                <p  class="font-weight-bold">  eBay Kleinanzeigen </p>
                 <div class="row">
                   <div class="col-md-6"> 
-                    <h6> Strengths </h6>
+                    <p  class="font-weight-bold">  Strengths </p>
                     <ul> 
                       <li>Large user base: It has a large user base of both buyers and sellers, ensuring a wide selection of products for sale.</li>
                       <li>Convenient and economical: The platform is free and easy to use, making it a convenient and attractive option for those looking to sell or buy second-hand products.</li>
@@ -248,7 +261,7 @@
                     </ul>
                      </div> 
                      <div class="col-md-6"> 
-                      <h6> Weaknesses </h6>
+                      <p  class="font-weight-bold">  Weaknesses </p>
                       <ul> 
                         <li>Transaction security: Transactions between buyers and sellers can be complicated, especially for high-value products, and there are risks of fraud and scams.</li>
                         <li>Personal safety risks: Personal meetings required for product exchanges can pose personal safety risks. </li>
@@ -259,7 +272,7 @@
     
                        <div class="row mb-4">
                        <div class="col-md-6"> 
-                        <h6> Opportunities </h6>
+                        <p  class="font-weight-bold">  Opportunities </p>
                         <ul> 
                           <li>Expanding to the European market: eBay operates only in Germany, providing us with the opportunity to reach a wider audience in other nations.</li>
                           <li>Listing unavailable products: Some listings feature products that are no longer available. GoodBuy provides a system that manages sales.</li>
@@ -268,7 +281,7 @@
     
                          </div> 
                          <div class="col-md-6"> 
-                          <h6> Threats </h6>
+                          <p  class="font-weight-bold">  Threats </p>
                           <ul> 
                             <li>Recognized brand: eBay has a recognized brand and a large audience, making it difficult to compete with.</li>
                             <li>Free listings: It offers the possibility of posting free ads, making it accessible to anyone looking to sell or buy products online in Germany.</li>
@@ -278,10 +291,10 @@
                     </div>
                
 
-                <h5> GoodBuy </h5>
+                    <p  class="font-weight-bold">  GoodBuy </p>
                 <div class="row">
                   <div class="col-md-6"> 
-                    <h6> Strengths </h6>
+                    <p  class="font-weight-bold">  Strengths </p>
                     <ul> 
                       <li>Collection points: The presence of affiliated second-hand shops can offer a practical solution for those who do not want or cannot transport their items to a new location.</li>
                       <li>Connection: The local nature of the app can make it easier to connect with people in the same area and allow for greater trust in the transaction, creating a community of Goodbuyers.</li>
@@ -289,7 +302,7 @@
                     </ul>
                      </div> 
                      <div class="col-md-6"> 
-                      <h6> Weaknesses </h6>
+                      <p  class="font-weight-bold">  Weaknesses </p>
                       <ul> 
                         <li>Shipping: Lack of a shipping service that allows the purchase of goods sold in locations different from where the user is.</li>
                         <li>User base: It might be challenging to attract a sufficient number of users to generate significant transaction volume. </li>
@@ -300,7 +313,7 @@
     
                        <div class="row mb-4">
                        <div class="col-md-6"> 
-                        <h6> Opportunities </h6>
+                        <p  class="font-weight-bold">  Opportunities </p>
                         <ul> 
                           <li> Growing market: The market is rapidly expanding as more people frequently move for work or study.</li>
                           <li>Environmental impact: The idea of reusing items could attract consumers concerned about the environmental impact of their purchases.</li>
@@ -309,7 +322,7 @@
     
                          </div> 
                          <div class="col-md-6"> 
-                          <h6> Threats </h6>
+                          <p  class="font-weight-bold">  Threats </p>
                           <ul> 
                             <li>Competition: There could be competition from already established similar applications.</li>
                             <li>Resource scarcity: There might be a shortage of useful household items available for exchange, especially in certain geographical areas.</li>
@@ -321,7 +334,7 @@
 
   <!-- Target -->
         <h3> Target & User Personas </h3>
-        <div class="row mb-4 mt-4">
+        <div class="row mb-2 mt-4">
           <div class="col-md-6">
             <ul>
               <li>Erasmus students</li>
@@ -334,7 +347,7 @@
           </div>
           <div class="col-md-6">
             <p>The user personas are available in this presentation:</p>
-            <button class="btn btn-primary">Users Personas</button> <p>*available only in italian</p>
+           <a href="https://www.behance.net/gallery/176303813/GoodBuy"> <button class="btn">Users Personas</button></a> <p>*available only in italian</p>
           </div> </div>
   <!-- end target -->
 
@@ -352,7 +365,7 @@
            </div>
            <div class="col-md-3">
             <p> In this Figma File you can find all the wireframe:</p>
-           <button class="btn btn-primary"> <a href="https://www.figma.com/design/Kn5F7HlzKEOrCxws4OD7Ir/Progetto-GoodBuy?node-id=12-9871&t=Zue150SkstD0QLWf-1"> Wireframe</a></button>
+           <button class="btn"> <a href="https://www.figma.com/design/Kn5F7HlzKEOrCxws4OD7Ir/Progetto-GoodBuy?node-id=12-9871&t=Zue150SkstD0QLWf-1"> Wireframe</a></button>
           </div>
         </div>
 
@@ -413,8 +426,8 @@
           <p>The Card Sorting – created online using the Miro platform – was administered to 6 participants: 3 men and 3 women aged between 23 and 33, representing different target groups (out-of-town student, Erasmus student, business traveler, and regular resident). </p>
           
         <p>Thanks to the selection of a heterogeneous sample of subjects, we were able to obtain a broader and more representative view of the mental models through which users tend to design information. </p>
-        <button class="btn btn-primary mr-3"> <a href="https://miro.com/app/board/uXjVMJlV0vw=/?share_link_id=362522750955"> Card Sorting - Miro </a> </button>
-        <button class="btn btn-primary"> <a href="https://docs.google.com/spreadsheets/d/1UTYnYnpMM2HkZLJcGAyx_Mbz991Zvt9kvai-1YQ3fYM/edit?usp=sharing"> Card Sorting - Results </a> </button> <span>*results available only in italian</span>
+        <button class="btn mr-3"> <a href="https://miro.com/app/board/uXjVMJlV0vw=/?share_link_id=362522750955"> Card Sorting - Miro </a> </button>
+        <button class="btn"> <a href="https://docs.google.com/spreadsheets/d/1UTYnYnpMM2HkZLJcGAyx_Mbz991Zvt9kvai-1YQ3fYM/edit?usp=sharing"> Card Sorting - Results </a> </button> <span>*results available only in italian</span>
 
       </div>  </div>
 
@@ -424,7 +437,7 @@
   <div class="col-md-12"> 
         <h3> Wireframe & Prototype </h3>
         <p> Afterwards the card sorting, we made some changes on the wireframe and developed a wireframe's prototype. </p>
-        <button class="btn btn-primary"><a href="https://www.figma.com/proto/Kn5F7HlzKEOrCxws4OD7Ir/Progetto-GoodBuy?node-id=149-13462&t=3dqavv02ZJXXs0MI-1&scaling=min-zoom&page-id=149%3A13215&starting-point-node-id=149%3A13462"> Wireframe's Prototype</a></button>
+        <button class="btn"><a href="https://www.figma.com/proto/Kn5F7HlzKEOrCxws4OD7Ir/Progetto-GoodBuy?node-id=149-13462&t=3dqavv02ZJXXs0MI-1&scaling=min-zoom&page-id=149%3A13215&starting-point-node-id=149%3A13462"> Wireframe's Prototype</a></button>
 
       </div>  </div>
 
@@ -434,7 +447,7 @@
         <h3> Heuristics Evaluation </h3>
        <p> The heuristic evaluation was performed by 3 experts, who had the task of verifying whether the different heuristics had been respected in the wireframe prototype.
         For each violated heuristic, the experts left a comment explaining their point of view.</p>
-       <button class="btn btn-primary"><a href="https://docs.google.com/spreadsheets/d/1mi7TcWLU6-iL_wlBswVw9TrvckA1nXYnJTyXaTGWlRo/edit?usp=sharing">Heuristic Evaluation</a> </button> <span>*available only in Italian</span>
+       <button class="btn"><a href="https://docs.google.com/spreadsheets/d/1mi7TcWLU6-iL_wlBswVw9TrvckA1nXYnJTyXaTGWlRo/edit?usp=sharing">Heuristic Evaluation</a> </button> <span>*available only in Italian</span>
       </div>
    
     </div>
@@ -488,8 +501,8 @@
             </ul>
 
             <div class="d-flex justify-content-center "> 
-            <button class="btn btn-primary mt-2 mr-2"><a href="https://www.figma.com/design/Kn5F7HlzKEOrCxws4OD7Ir/Progetto-GoodBuy?node-id=181-13756&t=Zue150SkstD0QLWf-1"> Mockups </a></button>
-            <button class="btn btn-primary mt-2"><a href="https://www.figma.com/design/Kn5F7HlzKEOrCxws4OD7Ir/Progetto-GoodBuy?node-id=8-8172&t=Zue150SkstD0QLWf-1"> Design System </a></button>
+            <button class="btn mt-2 mr-2"><a href="https://www.figma.com/design/Kn5F7HlzKEOrCxws4OD7Ir/Progetto-GoodBuy?node-id=181-13756&t=Zue150SkstD0QLWf-1"> Mockups </a></button>
+            <button class="btn mt-2"><a href="https://www.figma.com/design/Kn5F7HlzKEOrCxws4OD7Ir/Progetto-GoodBuy?node-id=8-8172&t=Zue150SkstD0QLWf-1"> Design System </a></button>
           </div>
 
 
@@ -555,7 +568,7 @@
               <li>Inability to identify community members solely through the profile picture.</li>
             </ul>
 
-            <button class="btn btn-primary mt-2"><a href=" https://www.figma.com/design/Kn5F7HlzKEOrCxws4OD7Ir/Progetto-GoodBuy?node-id=246-20382&t=Zue150SkstD0QLWf-1"> Figma Prototype </a></button>
+            <button class="btn mt-2"><a href=" https://www.figma.com/design/Kn5F7HlzKEOrCxws4OD7Ir/Progetto-GoodBuy?node-id=246-20382&t=Zue150SkstD0QLWf-1"> Figma Prototype </a></button>
     
            
             
@@ -577,8 +590,8 @@
       <div class="col-md-12 center-content"> 
             <h2 class="mb-4 text-center"> More about the project </h2>
             <div class="d-flex justify-content-center">
-            <button class="btn btn-primary mx-2"><a href="https://www.behance.net/gallery/176303813/GoodBuy"> Behance </a></button>
-            <button class="btn btn-primary mx-2"><a href="https://www.figma.com/design/Kn5F7HlzKEOrCxws4OD7Ir/Progetto-GoodBuy?node-id=8-8172&t=Zue150SkstD0QLWf-1"> Figma File</a></button>
+            <button class="btn  mx-2"><a href="https://www.behance.net/gallery/176303813/GoodBuy"> Behance </a></button>
+            <button class="btn mx-2"><a href="https://www.figma.com/design/Kn5F7HlzKEOrCxws4OD7Ir/Progetto-GoodBuy?node-id=8-8172&t=Zue150SkstD0QLWf-1"> Figma File</a></button>
           </div>
           </div>  </div>
 
@@ -591,20 +604,19 @@
 
 
 
-
-
-
-  <!-- Footer -->
-  <div class="container">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-      <div class="col-md-4 d-flex align-items-center">
-    
-        <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Martina Bisi </span>
-      </div>
-    
-    </footer>
-      </div>
       <!-- Footer -->
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+          <div class="col-md-4 d-flex align-items-center">
+        
+            <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Martina Bisi </span>
+          </div>
+        
+        </footer>
+          </div>
+          <!-- Footer -->
+
+          
 
 <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
