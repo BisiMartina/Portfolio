@@ -19,6 +19,8 @@ body { background-color: var(--custom-background-color);
   font-size: 1.125rem;
 }
 
+
+/* Titoli */
 h1 {
   font-size: 80px;
 }
@@ -31,8 +33,10 @@ h3 {
   font-size: 36px;
 }
 
+h4 {
+  font-size: 26px;
+}
 
-/* Titoli */
 h1, h2, h3, h4  {
   font-family: "Jomhuria", serif;
   font-weight: 400;
@@ -41,13 +45,43 @@ h1, h2, h3, h4  {
 }
 
 /* Buttons */
-.btn {
+
+.button {
+  padding-top: 7px;
+  padding-right: 40px;
+  padding-bottom: 7px;
+  padding-left: 40px;
+  font-size: 1.625rem;
+  letter-spacing: 1.2px;
   color: var( --custom-text-color);
   background-color: var(--custom-cta-color);
   font-family: "Jomhuria", serif;
+  border: none;
+  border-radius: 10px;
+}
+
+.button:active {
+  background-color: var(--custom-ctactive-color);
+  color: var(--custom-text-color);
+}
+
+.button:hover {
+  background-color: var(--custom-ctactive-color);
+  color: var(--custom-text-color);
+}
+
+
+
+.btn {
+  padding-top: 7px;
+  padding-right: 20px;
+  padding-bottom: 7px;
+  padding-left: 20px;
+  font-size: 1.25rem;
   letter-spacing: 1.2px;
-  font-size: 18px;
-  padding: 0.5rem;
+  color: var( --custom-text-color);
+  background-color: var(--custom-cta-color);
+  font-family: "Jomhuria", serif;
 }
 
 .btn:active {
@@ -88,11 +122,13 @@ a:hover {
     /* Desktop */
     @media (min-width: 768px) {
       .nav-item {
-          margin: 20px;
+          margin: 25px;
           color: var( --custom-text-color);
           background-color: var(--custom-cta-color);
           font-family: "Jomhuria", serif;
           border-radius: 8px;
+          font-size: 1.625rem;
+  letter-spacing: 1.2px;
         }
         
       .nav-item:hover {
@@ -102,10 +138,10 @@ a:hover {
         }
   
         .navbar-expand-md .navbar-nav .nav-link  {
-          padding-left: 15px;
-          padding-right: 15px;
-          padding-top: 5px;
-          padding-bottom: 5px;
+          padding-left: 35px;
+          padding-right: 35px;
+          padding-top: 10px;
+          padding-bottom: 10px;
         }
   
     } 
@@ -119,6 +155,8 @@ a:hover {
       font-family: "Jomhuria", serif;
       text-align: center;
       border-radius: 8px;  
+      font-size: 1.625rem;
+      letter-spacing: 1.2px;
     }
     
     .nav-item:hover {
@@ -130,6 +168,13 @@ a:hover {
     .navbar-toggler:focus {
       outline: none;
       box-shadow: none;
+  }
+
+  .navbar-expand-md .navbar-nav .nav-link  {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
     /* NAVBAR */
 
@@ -251,7 +296,6 @@ a:hover {
     margin-left: 10px;
   }
 }
-
 
 .cover {
   position: relative;
