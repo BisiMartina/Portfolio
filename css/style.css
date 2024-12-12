@@ -47,9 +47,9 @@ h1, h2, h3, h4  {
 /* Buttons */
 
 .button {
-  padding-top: 8px;
+  
   padding-right: 40px;
-  padding-bottom: 5px;
+  
   padding-left: 40px;
   font-size: 1.625rem;
   letter-spacing: 1.2px;
@@ -72,13 +72,12 @@ h1, h2, h3, h4  {
 }
 
 
-
 .btn {
   padding-top: 9px;
   padding-right: 20px;
   padding-bottom: 7px;
   padding-left: 20px;
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   letter-spacing: 1.2px;
   color: var( --custom-text-color);
   background-color: var(--custom-cta-color);
@@ -129,7 +128,7 @@ a:hover {
           font-family: "Jomhuria", serif;
           border-radius: 8px;
           font-size: 1.625rem;
-  letter-spacing: 1.2px;
+          letter-spacing: 1.2px;
         }
         
       .nav-item:hover {
