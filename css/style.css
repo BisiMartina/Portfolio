@@ -304,36 +304,23 @@ a:hover {
   position: relative;
   width: 100%;
   height: 420px; 
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   overflow: hidden; 
+  background-repeat: no-repeat;
 }
 
-.cover::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-}
 
 @media (max-width: 768px) {
   .cover {
   position: relative;
   width: 100%;
-  height: 13rem; 
-  background-size: cover;
+  height: 13.125rem; 
+  background-size: contain;
   background-position: center;
   overflow: hidden; 
   }
 
-  .cover::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-  }
 }
 
 
