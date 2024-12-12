@@ -326,6 +326,14 @@ a:hover {
   background-position: center;
   overflow: hidden; 
   }
+
+  .cover::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
 }
 
 
