@@ -1,6 +1,6 @@
 :root {
   --custom-background-color: #ECE3EC;
-  --custom-cta-color: #BCCCAC;
+  --custom-cta-color: #AFCF8F;
   --custom-ctactive-color: #CD99C4;
   --custom-text-color: #2D382E;
   --custom-title-color: #3C4B3D;
@@ -49,7 +49,7 @@ h1, h2, h3, h4  {
 .button {
   padding-top: 7px;
   padding-right: 40px;
-  padding-bottom: 7px;
+  padding-bottom: 5px;
   padding-left: 40px;
   font-size: 1.625rem;
   letter-spacing: 1.2px;
