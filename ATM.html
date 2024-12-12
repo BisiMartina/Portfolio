@@ -24,15 +24,7 @@
     <!--Adattabilità a schermo-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-YLKVKFPXKX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-YLKVKFPXKX');
-</script>
+  <script src="script.js"></script>
     
     
   </head>
@@ -51,7 +43,7 @@
       <div class="collapse navbar-collapse justify-content-center mr-5" id="navbarNav">
       <div class="navbar-nav">
         <a class="nav-item nav-link " href="index.html">Home</a>
-         <a class="nav-item nav-link" href="about me.html">About me</a>
+         <a class="nav-item nav-link" href="about me.html">AboutMe</a>
          <a class="nav-item nav-link" href="projects.html">Projects</a>
          <a class="nav-item nav-link" href="contacts.html">Contacts</a>
      </div>
@@ -62,13 +54,20 @@
   <!-- end NAVBAR -->
 
 
-  <div class="cover mt-4" style="background-image: url('img/ATM/CoverATM.png');"> </div>
+
+<!-- Scroll to Top Button -->
+<button onclick="topFunction()" class="topbtn" title="Go to top" style="display:block !important;">
+    <img src="img/TopBTN.svg" alt="Go to top" class="topbtnImg">
+  </button>
+
+
+  <div class="cover" style="background-image: url('img/ATM/CoverATM.png');"> </div>
 
    <!-- Intro -->
-  <div class="container mt-5 mb-2">
+  <div class="container">
     <div class="row mb-2">
       <div class="col-md-12 col-sm-12">  
-        <h1 class="mb-4"> App ATM Milano </h1>
+        <h1 class="mb-2"> App ATM Milano </h1>
         <p> For this University project, we analyzed the functionalities of the ATM app, identified the problems with its use, and developed an interactive prototype, which was tested on real users.
         </p>
           
@@ -390,7 +389,7 @@
 
 <!-- Footer -->
  <div class="container">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
       <div class="col-md-4 d-flex align-items-center">
     
         <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Martina Bisi </span>

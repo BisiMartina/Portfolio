@@ -34,7 +34,7 @@ h3 {
 }
 
 h4 {
-  font-size: 26px;
+  font-size: 32px;
 }
 
 h1, h2, h3, h4  {
@@ -44,8 +44,9 @@ h1, h2, h3, h4  {
   color: var(--custom-title-color);
 }
 
-/* Buttons */
 
+
+/* Buttons */
 .button {
   padding-top: 10px;
   padding-right: 40px;
@@ -92,6 +93,33 @@ h1, h2, h3, h4  {
 .btn:hover {
   background-color: var(--custom-ctactive-color);
   color: var(--custom-text-color);
+}
+
+.topbtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: var(--custom-decoration-color);
+  opacity: 0.5;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.topbtn:hover {
+  background-color: var(--custom-ctactive-color);
+}
+
+.topbtn:focus {
+  outline: none;
+}
+
+.topbtnImg {
+  height: 30px;
 }
 
 
@@ -141,10 +169,10 @@ a:hover {
         }
   
         .navbar-expand-md .navbar-nav .nav-link  {
-          padding-left: 35px;
-          padding-right: 35px;
-          padding-top: 10px;
-          padding-bottom: 6px;
+          padding-left: 2.188rem;
+          padding-right: 2.188rem;
+          padding-top: 0.625rem;
+          padding-bottom: 0.375;
         }
   
     } 
@@ -174,10 +202,10 @@ a:hover {
   }
 
   .navbar-expand-md .navbar-nav .nav-link  {
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 10px;
-    padding-bottom: 6px;
+    padding-left: 2.188rem;
+    padding-right: 2.188rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.375;
   }
     /* NAVBAR */
 
@@ -303,7 +331,7 @@ a:hover {
 .cover {
   position: relative;
   width: 100%;
-  height: 420px; 
+  height: 26.25rem; 
   background-size: contain;
   background-position: center;
   overflow: hidden; 
@@ -319,6 +347,7 @@ a:hover {
   background-size: contain;
   background-position: center;
   overflow: hidden; 
+  background-repeat: no-repeat;
   }
 
 }
