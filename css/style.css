@@ -47,9 +47,9 @@ h1, h2, h3, h4  {
 /* Buttons */
 
 .button {
-  
+  padding-top: 10px;
   padding-right: 40px;
-  
+  padding-bottom: 6px;
   padding-left: 40px;
   font-size: 1.625rem;
   letter-spacing: 1.2px;
@@ -141,7 +141,7 @@ a:hover {
           padding-left: 35px;
           padding-right: 35px;
           padding-top: 10px;
-          padding-bottom: 10px;
+          padding-bottom: 6px;
         }
   
     } 
