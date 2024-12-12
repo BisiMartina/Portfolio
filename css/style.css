@@ -47,7 +47,7 @@ h1, h2, h3, h4  {
 /* Buttons */
 
 .button {
-  padding-top: 7px;
+  padding-top: 8px;
   padding-right: 40px;
   padding-bottom: 5px;
   padding-left: 40px;
@@ -58,6 +58,7 @@ h1, h2, h3, h4  {
   font-family: "Jomhuria", serif;
   border: none;
   border-radius: 10px;
+  text-align: center;
 }
 
 .button:active {
@@ -73,7 +74,7 @@ h1, h2, h3, h4  {
 
 
 .btn {
-  padding-top: 7px;
+  padding-top: 9px;
   padding-right: 20px;
   padding-bottom: 7px;
   padding-left: 20px;
