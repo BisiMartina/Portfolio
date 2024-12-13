@@ -26,15 +26,15 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 60px;
 }
 
 h3 {
-  font-size: 36px;
+  font-size: 46px;
 }
 
 h4 {
-  font-size: 32px;
+  font-size: 36px;
 }
 
 h1, h2, h3, h4  {
@@ -328,32 +328,54 @@ a:hover {
   }
 }
 
+
+
+/* Cover Project */
+.containerCover {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  height: 35vh; 
+}
+
 .cover {
-  position: relative;
-  width: 100%;
-  height: 26.25rem; 
-  background-size: contain;
-  background-position: center;
-  overflow: hidden; 
-  background-repeat: no-repeat;
+  width: 90%;
+  height: 100%; 
+  border-radius: 1.875rem;
+  overflow: hidden;
+  box-shadow: 25px 20px 1px 2px #C07EB4;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
 }
 
 
-@media (max-width: 768px) {
-  .cover {
-  position: relative;
-  width: 100%;
-  height: 13.125rem; 
-  background-size: contain;
-  background-position: center;
-  overflow: hidden; 
-  background-repeat: no-repeat;
-  }
-
+.cover img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: fill;
 }
 
 
 /* end Projects */
+
+
+/* Element Circle */
+.circle {
+  width: 30px; 
+  height: 30px; 
+  background-color: var(--custom-title-color);
+  color:var(--custom-background-color);
+  font-family: "Jomhuria", serif;
+  border-radius: 50%; 
+  font-size: 2rem; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  padding-top: 3px;
+}
+
+
 
 /* Timeline */
 body{margin-top:20px;}
