@@ -22,7 +22,6 @@ document.addEventListener('DOMContentLoaded', function () {
 // Scroll To Top Button
 
 document.addEventListener('DOMContentLoaded', function () {
-  // Bottone "Scroll To Top"
   const mybutton = document.querySelector(".topbtn");
 
   window.onscroll = function () {
@@ -47,3 +46,39 @@ document.addEventListener('DOMContentLoaded', function () {
   mybutton.addEventListener("click", topFunction);
 });
 
+
+
+
+
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  const toggleButton = document.querySelector('.toggle-certifications');
+  const hiddenCertifications = document.querySelector('.hidden-certifications');
+
+  console.log('Bottone selezionato:', toggleButton);
+  console.log('Sezione nascosta selezionata:', hiddenCertifications);
+
+  // Nascondi esplicitamente all'inizio
+  hiddenCertifications.classList.add('d-none');
+
+  toggleButton.addEventListener('click', function () {
+    if (hiddenCertifications.classList.contains('d-none')) {
+      // Mostra le certificazioni
+      hiddenCertifications.classList.remove('d-none');
+      hiddenCertifications.classList.add('d-flex'); // Per layout flessibile
+      toggleButton.textContent = 'Mostra di meno';
+    } else {
+      // Nascondi le certificazioni
+      hiddenCertifications.classList.remove('d-flex');
+      hiddenCertifications.classList.add('d-none');
+      toggleButton.textContent = 'Mostra di più';
+    }
+
+    // Log delle classi dopo il click
+    console.log('Classi dopo il click:', hiddenCertifications.classList);
+  });
+});
