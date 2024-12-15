@@ -211,6 +211,7 @@ a:hover {
 
 
 
+
 /* Intestazione - Home */
   /* Mobile */
 
@@ -231,40 +232,6 @@ a:hover {
     object-fit: scale-down;
   }
 
-
-  /* Desktop 
-    @media (min-width: 768px) {
-      #welcome {
-        font-size: 8rem;
-  
-      }
-      #name { 
-        font-size: 5rem;
-      
-      }
-
-     #subtitle {
-        font-size: 2rem;
-      }
-  
-      #arrow {
-        width: 26rem;
-        height: 26rem;
-      }
-    
-      .picture {
-        width: 28rem;
-        height: 18rem;
-        object-fit: scale-down;
-      }
-
-      .picture1 {
-        width: 28rem;
-        height: 22rem;
-        object-fit: scale-down;
-      }
-
-    } 
   
 /* Intestazione - Home */
 
@@ -328,6 +295,18 @@ a:hover {
   }
 }
 
+/* Breadcrumb */
+.breadcrumb {
+  background-color: var(--custom-background-color);
+}
+
+.breadcrumb-link:hover {
+  color: var(--custom-cta-color);
+ } 
+
+.breadcrumb-item:hover {
+  color: var(--custom-cta-color);
+}
 
 
 /* Cover Project */
@@ -345,7 +324,7 @@ a:hover {
   overflow: hidden;
   box-shadow: 25px 20px 1px 2px #C07EB4;
   display: flex;
-  justify-content: center; 
+  justify-content: corenter; 
   align-items: center;
 }
 

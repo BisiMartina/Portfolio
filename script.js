@@ -47,14 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-
-
-
-
-
-
-
-
+// Load More Certifications
 document.addEventListener('DOMContentLoaded', function () {
   const toggleButton = document.querySelector('.toggle-certifications');
   const hiddenCertifications = document.querySelector('.hidden-certifications');
@@ -62,23 +55,20 @@ document.addEventListener('DOMContentLoaded', function () {
   console.log('Bottone selezionato:', toggleButton);
   console.log('Sezione nascosta selezionata:', hiddenCertifications);
 
-  // Nascondi esplicitamente all'inizio
   hiddenCertifications.classList.add('d-none');
 
   toggleButton.addEventListener('click', function () {
     if (hiddenCertifications.classList.contains('d-none')) {
-      // Mostra le certificazioni
+      // Show More
       hiddenCertifications.classList.remove('d-none');
-      hiddenCertifications.classList.add('d-flex'); // Per layout flessibile
-      toggleButton.textContent = 'Mostra di meno';
+      hiddenCertifications.classList.add('d-flex');
+      toggleButton.textContent = 'Load Less';
     } else {
-      // Nascondi le certificazioni
+      // Show Less
       hiddenCertifications.classList.remove('d-flex');
       hiddenCertifications.classList.add('d-none');
-      toggleButton.textContent = 'Mostra di più';
+      toggleButton.textContent = 'Load More';
     }
 
-    // Log delle classi dopo il click
-    console.log('Classi dopo il click:', hiddenCertifications.classList);
   });
 });
