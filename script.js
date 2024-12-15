@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
   console.log('Bottone selezionato:', toggleButton);
   console.log('Sezione nascosta selezionata:', hiddenCertifications);
 
-  hiddenCertifications.classList.add('d-none');
+ 
 
   toggleButton.addEventListener('click', function () {
     if (hiddenCertifications.classList.contains('d-none')) {

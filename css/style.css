@@ -129,8 +129,11 @@ li::marker {
 }
 
 li {
-  list-style-image: url(img/list.svg);
+  list-style: url('/img/list.svg');
+  padding: 0 0 8px 10px;
 }
+
+
 
 /* Footer */
 footer {
@@ -259,6 +262,11 @@ a:hover {
     justify-content: end;
 
   }
+}
+
+
+.competences li {
+  list-style: circle;
 }
 
 /* About me */
