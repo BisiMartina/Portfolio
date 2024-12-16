@@ -316,6 +316,10 @@ a:hover {
   color: var(--custom-cta-color);
 }
 
+.breadcrumb li {
+  list-style: none;
+}
+
 
 /* Cover Project */
 .containerCover {
@@ -332,7 +336,7 @@ a:hover {
   overflow: hidden;
   box-shadow: 25px 20px 1px 2px #C07EB4;
   display: flex;
-  justify-content: corenter; 
+  justify-content: center; 
   align-items: center;
 }
 
@@ -343,6 +347,14 @@ a:hover {
   object-fit: fill;
 }
 
+
+@media (max-width: 768px) {
+  .cover img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+  }
+}
 
 /* end Projects */
 
