@@ -15,7 +15,7 @@
   </style>
 
   <style>
-     @import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Jomhuria&family=Special+Elite&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
   </style>
 
 
@@ -31,28 +31,6 @@
   </head>
   <body>
 
-   
- <!-- NAVBAR -->
- <div class="container">
-  <nav class="navbar navbar-expand-md">
-    <a class="navbar-brand" href="index.html">
-      <img src="img/logo.svg" width="60" height="60" alt="logo MB">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"><img src="img/menu.svg" width="40px" height="40px"> </span>
-   </button>
-    <div class="collapse navbar-collapse justify-content-center mr-5" id="navbarNav">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link " href="index.html">Home</a>
-       <a class="nav-item nav-link" href="about me.html">AboutMe</a>
-       <a class="nav-item nav-link" href="projects.html">Projects</a>
-       <a class="nav-item nav-link" href="contacts.html">Contacts</a>
-   </div>
-   </div>
-  </nav>
-
-</div>
-<!-- end NAVBAR -->
   
 
 <!-- Scroll to Top Button -->
@@ -61,36 +39,78 @@
 </button>
 
 
-  <!-- Intestazione -->
-  <div class="container mt-2">
+<!-- Navbar mobile -->
+ <div class="d-block d-lg-none"> 
+<nav class="navbar navbar-expand-md mt-4">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><img src="img/menu.svg" width="40px" height="40px"> </span>
+ </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+  <div class="navbar-nav">
+    <a class="nav-item nav-link " href="index.html">Home.</a>
+     <a class="nav-item nav-link" href="about me.html">AboutMe.</a>
+     <a class="nav-item nav-link" href="projects.html">Projects.</a>
+     <a class="nav-item nav-link" href="contacts.html">Contacts.</a>
+ </div>
+ </div>
+</nav>
+</div>
+<!-- end Navbar mobile -->
+
+
+  <!-- Navbar Desktop -->
+  <div class="hero img-fluid d-none d-lg-block mb-2">
+    <nav class="navbar navbar-expand-md mt-4">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><img src="img/menu.svg" width="40px" height="40px"> </span>
+     </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link " href="index.html">Home.</a>
+         <a class="nav-item nav-link" href="about me.html">AboutMe.</a>
+         <a class="nav-item nav-link" href="projects.html">Projects.</a>
+         <a class="nav-item nav-link" href="contacts.html">Contacts.</a>
+     </div>
+     </div>
+    </nav>
+
+      </div>
+</div>
+<!-- end Navbar -->
+
+<!-- Intestazione mobile-->
+<div class="container mt-4 d-block d-lg-none">
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="d-flex justify-content-around text-center mt-2">
+        <h1 > Welcome to my portfolio. </h1>
+        </div>
+      </div>
+    </div>
 
     <div class="row">
-      <div class="col-md-12">
-        <div class="d-flex justify-content-around text-center mt-2">
-          <h1 class="display-1"> Welcome to my portfolio. </h1>
-          </div>
-        </div>
+      <div class="col-md-12 d-flex justify-content-around text-center mt-2">
+        <div> 
+        <h2>Martina Bisi</h2>
+        <p>Aspirant UX/UI designer</p>
+      </div>
       </div>
 
-      <div class="row">
-        <div class="col-md-12 d-flex justify-content-around text-center mt-2">
-          <div> 
-          <h2>Martina Bisi</h2>
-          <p>Aspirant UX/UI designer</p>
-        </div>
-        </div>
-
-      </div>
+    </div>
 
 </div>
 <!-- end Intestazione -->
+
+
+
   
-  <!-- About me -->
- <div class="container mt-2">
+
+<!-- About me -->
+ <div class="container mt-5">
     <div class="row mb-2">
-    
   <div class="col-md-6 col-sm-12">
-    <h2> Meet me </h2>
+    <h2> Meet me. </h2>
     <p>Hi! I'm Martina and I am an aspiring UX/UI designer.</p>
     
     <p>I began my academic journey by studying communication from a humanistic perspective, and then moved on to study communication in the digital field. During my studies, I discovered the work of user experience and interface designers, which greatly intrigued me. 
@@ -99,14 +119,13 @@
   </div>
     
   <div class="col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
-    <img src="img/foto.png" class="picture img-fluid">
+    <img src="img/img_portf.png" class="picture img-fluid">
    </div>
 
- 
     </div>
     
            
-  <div class="row mt-4">
+  <div class="row mt-5">
       <div class="col-md-6 col-sm-12">
          <h3> Work Experience </h3>
           <ul> 
@@ -230,7 +249,7 @@
 
 
       <!-- Footer -->
-      <div class="container">
+      <div class="container mt-5">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
           <div class="col-md-4 d-flex align-items-center">
         
