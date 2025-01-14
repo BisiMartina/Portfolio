@@ -231,6 +231,9 @@ a:hover {
     overflow: hidden;
   }
 
+  .heroText {
+    height: 80vh;
+  }
 
   .picture {
     width: 30rem;
