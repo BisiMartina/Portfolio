@@ -17,7 +17,7 @@ body {
   scroll-behavior: smooth;
   letter-spacing: 1px;
   font-size: 1.125rem;
-  background-image: url('/img/background.jpg');
+  background-image: url('./img/background.jpg');
   margin-top: 0 !important;
 }
 
@@ -134,7 +134,7 @@ li::marker {
 }
 
 li {
-  list-style: url('/img/list.svg');
+  list-style: url('./img/list.svg');
   padding: 0 0 8px 10px;
 }
 
@@ -225,7 +225,7 @@ a:hover {
 .hero {
     position: relative;
     height: 100vh;
-    background-image: url('/img/Hero_portfolio.png');
+    background-image: url('./img/Hero_portfolio.png');
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
